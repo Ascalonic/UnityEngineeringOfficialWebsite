@@ -8,6 +8,20 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Extra Styles added by Remesh
+--------------------------------------------------------------*/
+#rubber{
+  font-size: 2rem;
+}
+#img-logo{
+  float: left;
+  margin-left: 3px;
+}
+.text-light{
+  float: left;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444;
@@ -593,9 +607,12 @@ section {
 }
 
 .about .icon-box .description {
-  margin-left: 95px;
+  text-align: ;
+  /* margin-left: 95px; */
   line-height: 24px;
   font-size: 14px;
+  float: right;
+  margin-left: 7rem
 }
 
 .about .video-box {
@@ -707,7 +724,9 @@ section {
 .about-lists .row {
   overflow: hidden;
 }
-
+#product-row{
+  margin-left: 27.5rem;
+}
 .about-lists .content-item {
   padding: 40px;
   border-left: 1px solid #d9e8f4;
