@@ -22,6 +22,10 @@
   float: left;
 }
 
+
+
+
+/* ------------------------------------ */
 body {
   font-family: "Open Sans", sans-serif;
   color: #444;
@@ -607,7 +611,7 @@ section {
 }
 
 .about .icon-box .description {
-  text-align: ;
+  text-align:center ;
   /* margin-left: 95px; */
   line-height: 24px;
   font-size: 14px;
@@ -724,9 +728,13 @@ section {
 .about-lists .row {
   overflow: hidden;
 }
-#product-row{
-  margin-left: 27.5rem;
+.product-sh{
+  text-align: center;
+  margin: 0 auto;
 }
+/* #product-row{
+  margin-left: 27.5rem;
+} */
 .about-lists .content-item {
   padding: 40px;
   border-left: 1px solid #d9e8f4;
